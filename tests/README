@@ -1,0 +1,52 @@
+Created by Barr Caplan
+
+***Please don't submit those file with your project, these are the files I'm going to send***
+
+encoding validation files:
+	encodingTester.as
+	encodingTester.ob
+	encodingTester.ent
+	encodingTester.ext
+
+Encoding Tester should pass compilation.
+optional website to compare output files: https://www.diffchecker.com/diff
+
+
+
+error validation files:
+	errorTester1.as
+	errorTester2.as
+
+Error testers are made according to my validation seperation between First and Second time going over source code.
+Added comments in order to easly understand what errors are being tested, and to easly move them between First and Second file according to your validation seperation.
+
+errorTester1.as errors should appear at lines (according to my validation seperation):
+1
+7-11
+14-41
+44-74
+78-85
+89-116
+119-128
+131-137
+141-150
+152-153
+total of 130 errors
+
+errorTester2.as errors should appear at lines (according to my validation seperation):
+6-9
+11-14
+total of 8 errors
+
+
+
+
+***Not covered in tests:***
+on bne,beq,blt,bgt commands label adress distance from current adress must fit 16 bits (page 22)
+not to create .ext and .ent if they are going to be empty! (page 40)
+
+
+##########################################################################
+# Found bugs or issues? Have ideas for additions?                        #
+# Contact me through the whatsapp group or via email: Barrcap1@gmail.com #
+##########################################################################
